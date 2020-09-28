@@ -25,7 +25,7 @@ $(document).keydown(function (e) {
     if (e.key.charCodeAt(0) != 83) {
         $("#" + e.key.charCodeAt(0)).addClass("highlight");
     }
-    //"S" still doesnt work, but now it's not highlighted
+    //"S" still doesnt work, but now it's not highlighted, cheat since S isnt in the sentences
 
     if (e.key.charCodeAt(0) == 83) {
         $upperKeyboard.show();
